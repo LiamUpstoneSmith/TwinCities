@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twin Cities</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Header -->
+    <h3>Twin Cities</h3>
+    <hr>
+    <br>    
+
+    <table>
+        <tr>
+            <th>Liverpool</th>
+            <th>Rio de Janeiro</th>
+        </tr>
+        <tr>
+            <td>
+    <!-- Liverpool Map API-->
+    <div id="LiverpoolMap"></div>
+    <script>
+        function initLiverpoolMap() {
+            var location = {lat: 53.408371, lng: -2.991573};
+            var map = new google.maps.Map(document.getElementById("LiverpoolMap"), {
+                zoom: 12, 
+                center: location
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9UWBhZnW66KZUky42esmJotiilN8s2og&callback=initLiverpoolMap"></script>
+        </td>    
+
+        <td>
+    <!-- Rio Map API -->
+    <div id="RioMap"></div>
+    <script>
+        function initRioMap() {
+            var location = {lat: -22.906847, lng: -43.172897};
+            var map = new google.maps.Map(document.getElementById("RioMap"), {
+                zoom: 10,
+                center: location
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4uF3Bgz3JJHFoLAxnv9g8TPrDCam1dCg&callback=initRioMap"></script>
+        </td>
+        </tr>
+</table>
+<br>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+h3{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin: 10px;
+}
+
+th, tr{
+    width: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#LiverpoolMap{
+    height: 500px;
+    width: 97%;
+}
+
+#RioMap{
+    height: 500px;
+    width: 97%;
+}
