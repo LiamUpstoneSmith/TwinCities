@@ -1,4 +1,4 @@
-h3{
+h2{
     text-align: center;
 }
 
@@ -22,7 +22,7 @@ th, tr{
     width: 98%;
 }
 
-#RioMap{
+#NOMap{
     height: 500px;
     width: 98%;
 }
