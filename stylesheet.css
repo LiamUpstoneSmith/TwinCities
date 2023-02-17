@@ -26,3 +26,38 @@ th, tr{
     height: 500px;
     width: 98%;
 }
+
+#liverpoolWeather{
+    width: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#newOrleansWeather{
+    width: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#weatherAPIRow{
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+#weatherAPIColumn{
+    float: left;
+    width: 50%;
+    padding: 5px;    
+}
+
+#weatherAPIRow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
