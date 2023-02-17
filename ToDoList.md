@@ -10,6 +10,10 @@
 7. Practice the walk through
 
 ## Individual Tasks
+
+Create XML file each describing individual work. This must also contain a discussion (up to 600 words) on data security based on the "Parkerian Hexad" and should consider how the application we built tackles any four attributes from this methodology. 
+
+
 *** 
 Liam - 
 *** 
