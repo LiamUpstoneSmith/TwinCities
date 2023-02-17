@@ -1,5 +1,5 @@
 
-# To Do List
+# Group Tasks
 
 1. ER diagram (Zoe)
 2. Weather API (Liam)
@@ -10,7 +10,9 @@
 7. Practice the walk through
 
 ## Individual Tasks
-1. Liam - 
-2. Lewis - 
-3. Zoe - Document the code
+Liam - ***
+Lewis - ***
+Zoe - Document the code ***
+Airen- ***
+
 
