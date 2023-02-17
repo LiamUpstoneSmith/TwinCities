@@ -1,13 +1,12 @@
 
 # Group Tasks
 
-1. ER diagram (Zoe)
-2. Weather API (Liam)
-3. Database configoration (Lewis)
-4. Configuration file ()
-5. RSS Feed (Zoe-ish)
-6. Individual Tasks
-7. Practice the walk through
+1. ER diagram (Zoe) Progress: Complete just need to configure in mySQL using lewis Database
+2. Weather API (Liam)Progress: 
+3. Database configoration (Lewis) Progress:
+4. Configuration file () Progress:
+5. RSS Feed (Zoe-ish) Progress: Im trying my best
+7. Practice the walk through (Everyone)
 
 ## Individual Tasks
 
@@ -15,9 +14,9 @@ Create XML file each describing individual work. This must also contain a discus
 
 
 *** 
-Liam - 
+Liam - CSS framework 
 *** 
-Lewis - 
+Lewis - Intergrate Twitter API 
 ***
 Zoe - Document the code
 ***
