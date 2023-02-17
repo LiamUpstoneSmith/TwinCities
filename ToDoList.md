@@ -10,9 +10,9 @@
 7. Practice the walk through
 
 ## Individual Tasks
-Liam - ***
-Lewis - ***
-Zoe - Document the code ***
-Airen- ***
+*** Liam - 
+*** Lewis - 
+***Zoe - Document the code
+***Airen- 
 
 
