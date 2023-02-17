@@ -2,7 +2,7 @@
 # Group Tasks
 
 1. ER diagram (Zoe) Progress: Complete just need to configure in mySQL using lewis Database
-2. Weather API (Liam)Progress: 
+2. Weather API (Liam)Progress: Done
 3. Database configoration (Lewis) Progress:
 4. Configuration file () Progress:
 5. RSS Feed (Zoe-ish) Progress: Im trying my best
