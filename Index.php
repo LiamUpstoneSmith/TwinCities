@@ -16,48 +16,40 @@
 </head>
 <body onload="initialize()">
     <!-- Header -->
-    <br>
-    <h2>Twin Cities</h2>
-    <hr>
-    <br>    
+    <div class="container-fluid">
+        <br>
+        <h2 class="text-center">Twin Cities</h2>
+        <hr>
+        <br>    
+    </div>
 
     <!-- Table for Maps ---------------------------------------------------->
-    <table class="maps">
-            <tr>
-                <th><h3>Liverpool</h3></th>
-                <th><h3>New Orleans</h3></th>
-            </tr>
-
-            <tr>
-            <td>
-        <!-- Liverpool Map API-->
-        <div id="LiverpoolMap"></div>
-            </td> 
-
-            <td>
-        <!-- </td> New Orleans Map API -->
-        <div id="NOMap"></div>
-        
-            </td>
-            </tr>
-    </table>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col"><h3 class="text-center">Liverpool</h3></div>
+            <div class="col"><h3 class="text-center">New Orleans</h3></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="LiverpoolMap"></div><!-- Liverpool Map API-->
+            </div>
+            <div class="col">
+                <div class="float-right"><div id="NOMap"></div></div><!-- New Orleans Map API -->
+            </div>
+        </div>
+    </div>
 
 
-
-
-<!-- Weather API --------------------------------------------------------->
+<!-- Weather APIs --------------------------------------------------------->
+    <br>
     <?php
         $Liv = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=53.4106&lon=-2.9779&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
         $NewO = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=29.951065&lon=-90.071533&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
     ?>
 
-    <table class="table" id="weatherAPIs">
-        <tr>
-            <th>Liverpool</th>
-            <th>New Orleans</th>
-        </tr>
-        <tr>
-            <td>
+    <div class="container-fluid" id="weatherAPIs">
+        <div class="row">
+            <div class="col">
                 <table class="table table-striped-columns" id="liverpoolWeather">
                         <tr>
                             <td>Condition:</td>
@@ -65,7 +57,7 @@
                         </tr>
                         <tr>
                             <td>Temprature:</td>
-                            <td><?php echo $Liv->temperature['value']; ?></td>
+                            <td><?php echo $Liv->temperature['value']. " °C"; ?></td>
                         </tr>
                         <tr>
                             <td>Wind:</td>
@@ -89,16 +81,16 @@
                             <td><?php echo $Liv->city->sun['set'];   ?> </td>
                         </tr>
                 </table>
-            </td>
-            <td>
+            </div>
+            <div class="col">
                 <table class="table table-striped-columns" id="newOrleansWeather">
-                    <tr>
+                        <tr>
                             <td>Condition:</td>
                             <td><?php echo $NewO->weather['value'] ?></td>
                         </tr>
                         <tr>
                             <td>Temprature:</td>
-                            <td><?php echo $NewO->temperature['value']; ?></td>
+                            <td><?php echo $NewO->temperature['value'] . " °C"; ?></td>
                         </tr>
                         <tr>
                             <td>Wind:</td>
@@ -122,9 +114,14 @@
                             <td><?php echo $NewO->city->sun['set'];   ?> </td>
                         </tr>
                 </table>
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+    </div>
+    <br>
 
+
+<!-- BootStrap JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>

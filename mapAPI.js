@@ -1,7 +1,7 @@
 function initialize(){
     var LiverpoolOptions = {
         center: new google.maps.LatLng(53.408371, -2.991573),
-        zoom: 12,
+        zoom: 10,
         mapTypeId: 'roadmap'
     };
 

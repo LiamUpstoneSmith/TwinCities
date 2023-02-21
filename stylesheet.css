@@ -1,21 +1,8 @@
-h2{
-    text-align: center;
+body{
+    margin:0rem;
+    overflow: auto;
+    background-color: #d1d1d1;
 }
-
-table{
-    width: 100%;
-    margin: 10px;
-}
-
-th, tr{
-    width: 50%;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 
 #LiverpoolMap{
     height: 500px;
@@ -60,4 +47,8 @@ th, tr{
     content: "";
     clear: both;
     display: table;
+}
+
+#liverpoolMapHeader, #NewOrleansMapHeader{
+    justify-content: center;
 }
