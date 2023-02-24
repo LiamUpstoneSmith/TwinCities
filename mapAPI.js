@@ -1,13 +1,13 @@
 function initialize(){
     var LiverpoolOptions = {
         center: new google.maps.LatLng(53.408371, -2.991573),
-        zoom: 10,
+        zoom: 11,
         mapTypeId: 'roadmap'
     };
 
     var NewOrleansOptions = {
         center: new google.maps.LatLng(29.951065, -90.071533),
-        zoom: 10,
+        zoom: 11,
         mapTypeId: 'roadmap'
     }
 

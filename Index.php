@@ -18,7 +18,7 @@
     <!-- Header -->
     <div class="container-fluid">
         <br>
-        <h2 class="text-center">Twin Cities</h2>
+        <a style="text-decoration: none; color: black;" id="headerTitle" href="index.php"><h2 class="text-center">Twin Cities</h2></a>
         <hr>
         <br>    
     </div>
