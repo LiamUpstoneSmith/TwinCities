@@ -5,7 +5,7 @@
 2. Weather API (Liam)Progress: Done
 3. Database configoration (Lewis) Progress:
 4. Configuration file () Progress:
-5. RSS Feed (Zoe-ish) Progress: Im trying my best
+5. RSS Feed () Progress: 
 7. Practice the walk through (Everyone)
 
 ## Individual Tasks
