@@ -31,10 +31,10 @@
         </div>
         <div class="row">
             <div class="col">
-                <div id="LiverpoolMap"></div><!-- Liverpool Map API-->
+                <div id="LiverpoolMap"></div>   <!-- Liverpool Map API-->
             </div>
             <div class="col">
-                <div class="float-right"><div id="NOMap"></div></div><!-- New Orleans Map API -->
+                <div class="float-right"><div id="NOMap"></div></div>   <!-- New Orleans Map API -->
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
     <div class="container-fluid" id="weatherAPIs">
         <div class="row">
             <div class="col">
-                <table class="table table-striped-columns" id="liverpoolWeather">
+                <table class="table table-striped-columns" id="liverpoolWeather"> <!-- Liverpool Weather API --> 
                         <tr>
                             <td>Condition:</td>
                             <td><?php echo $Liv->weather['value'] ?></td>
@@ -83,7 +83,7 @@
                 </table>
             </div>
             <div class="col">
-                <table class="table table-striped-columns" id="newOrleansWeather">
+                <table class="table table-striped-columns" id="newOrleansWeather"> <!-- New Orleans Weather API -->
                         <tr>
                             <td>Condition:</td>
                             <td><?php echo $NewO->weather['value'] ?></td>
