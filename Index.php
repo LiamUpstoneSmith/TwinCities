@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twin Cities</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <script type="text/javascript" src="mapAPI.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shirnk-to-fit=no">
+<!--Link API JavaScript -->
+    <script type="text/javascript" src="mapAPI.js"></script><!--google map API -->
     <script type="text/javascript" src="https://unpkg.com/@googlemaps/js-api-loader@1.0.0/dist/index.min.js"></script>
     <script type="text/javascript" async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initLiverpoolMap" defer></script> <!-- Liverpool map API key-->
     <script type="text/javascript" async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4uF3Bgz3JJHFoLAxnv9g8TPrDCam1dCg&callback=initNOMap" defer></script> <!-- New Orleans map API key-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!--Link CSS Style Sheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <!-- Bootstrap  CSS framework -->
+    <link rel="stylesheet" href="stylesheet.css">
 
-
+    <title>Twin Cities</title>
 </head>
+<!--This function runs the two map API's -->
 <body onload="initialize()">
     <!-- Header -->
     <div class="container-fluid">
@@ -50,6 +52,9 @@
     <div class="container-fluid" id="weatherAPIs">
         <div class="row">
             <div class="col">
+                <div id="hiddenTitles" class="hidden-md">
+                    <h4 id="hideME" style="text-align: center;">Liverpool</h4>
+                </div>
                 <table class="table table-striped-columns" id="liverpoolWeather"> <!-- Liverpool Weather API --> 
                         <tr>
                             <td>Condition:</td>
@@ -83,6 +88,9 @@
                 </table>
             </div>
             <div class="col">
+                <div class="container">
+                    <h4 style="text-align: center;">New Orleans</h4>
+                </div>
                 <table class="table table-striped-columns" id="newOrleansWeather"> <!-- New Orleans Weather API -->
                         <tr>
                             <td>Condition:</td>

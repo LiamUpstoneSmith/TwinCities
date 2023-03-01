@@ -1,19 +1,21 @@
+
+/* Changes the body and background colour and sizes*/
 body{
     background-color: #d1d1d1;
     margin:0rem;
     overflow: auto;
 }
-
+/* Changes the size of the liverpool map API*/
 #LiverpoolMap{
     height: 500px;
     width: 98%;
 }
-
+/*Changes the size of the New Orleans map API*/
 #NOMap{
     height: 500px;
     width: 98%;
 }
-
+/*Changes the size of the Liverpool Weather API  */
 #liverpoolWeather{
     width: auto;
     border-collapse: collapse;
@@ -22,7 +24,7 @@ body{
     margin-left:auto; 
     margin-right:auto;
 }
-
+/*Changes the size of the New Orleans weather API */
 #newOrleansWeather{
     width: auto;
     border-collapse: collapse;
@@ -31,24 +33,20 @@ body{
     margin-left:auto; 
     margin-right:auto;
 }
-
+/* Changes the format of the rows of the weather API*/
 #weatherAPIRow{
     margin-left:-5px;
     margin-right:-5px;
 }
 
+/* Changes the format of the coloumns of the weather API*/
 #weatherAPIColumn{
     float: left;
     width: 50%;
     padding: 5px;    
 }
 
-#weatherAPIRow::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
+/* Centres the headers for the map APIS*/
 #liverpoolMapHeader, #NewOrleansMapHeader{
     justify-content: center;
 }
