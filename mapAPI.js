@@ -65,14 +65,14 @@ function initialize(){
 
     const AnfieldInfo = new google.maps.InfoWindow({
         content: AnfieldContent,
-        ariaLabel: "Anfield"
+        ariaLabel: "Anfield Stadium"
     })
 
     const Anfield = { lat:53.43089 , lng: -2.96069};
     const  AnfieldMarker = new google.maps.Marker({
         position: Anfield,
         map: map1,
-        title: "Anfield",
+        title: "Anfield Stadium",
     });
 
     AnfieldMarker.addListener("click", () => {
@@ -104,7 +104,7 @@ function initialize(){
     const  UniMarker = new google.maps.Marker({
         position: Uni,
         map: map1,
-        title: "University",
+        title: "University of Liverpool",
     });
 
     UniMarker.addListener("click", () => {
@@ -137,7 +137,7 @@ const safariContent =
     const  safariMarker = new google.maps.Marker({
         position: safari,
         map: map1,
-        title: "Safari",
+        title: "Knowsley Safari",
     });
 
     safariMarker.addListener("click", () => {
@@ -169,7 +169,7 @@ const galleryContent =
     const  galleryMarker = new google.maps.Marker({
         position: gallery,
         map: map1,
-        title: "Gallery",
+        title: "Lady Lever Art Gallery",
     });
 
     galleryMarker.addListener("click", () => {
@@ -202,7 +202,7 @@ const parkContent =
     const  parkMarker = new google.maps.Marker({
         position: park,
         map: map1,
-        title: "park",
+        title: "Central Park",
     });
 
     parkMarker.addListener("click", () => {
@@ -296,7 +296,7 @@ const CBContent =
                 "</div>";
 
     const CBInfo = new google.maps.InfoWindow({
-        content: LSContent,
+        content: CBContent,
         ariaLabel: "Chalmette Battlefield"
     })
 

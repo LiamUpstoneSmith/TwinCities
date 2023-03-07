@@ -50,3 +50,9 @@ body{
 #liverpoolMapHeader, #NewOrleansMapHeader{
     justify-content: center;
 }
+
+@media only screen and (min-width: 768px) {
+    #hiddenTitles{
+        visibility: hidden;
+    }
+}
