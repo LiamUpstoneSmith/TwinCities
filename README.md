@@ -1,6 +1,6 @@
 # README: Twin Cities Application
 
-This Application presents the user with two interactive maps, Liverpool and New Orleans and the weather information for each of these cities gathered using an API. On these maps the user is presented with ((6))points of interest in each city which they can rollover and click on to receive more information such as a description and images of the points of interest. The application also features an RSS feed. Additionally a Flickr API is presented to the user with images grabbed from the locations hashtag on the Flickr website. 
+This Application presents the user with two interactive maps, Liverpool and New Orleans and the weather information for each of these cities gathered using an API. On these maps the user is presented with 6 points of interest in each city which they can rollover and click on to receive more information such as a description and images of the points of interest. The application also features an RSS feed. Additionally a Flickr API is presented to the user with images grabbed from the locations hashtag on the Flickr website. 
 
 
 ## Requirements
