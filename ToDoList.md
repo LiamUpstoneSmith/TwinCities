@@ -3,9 +3,9 @@
 
 1. ER diagram (Zoe) Progress: Complete just need to configure in mySQL using lewis Database
 2. Weather API (Liam)Progress: Done
-3. Database configoration (Lewis) Progress:
-4. Configuration file () Progress:
-5. RSS Feed () Progress: 
+3. Database configoration (Lewis) Progress: need to change lats then done
+4. Configuration file (Zoe) Progress:
+5. RSS Feed (lewis) Progress: liverpool done, new orleans alsmot.  need to implement both 
 7. Practice the walk through (Everyone)
 
 ## Individual Tasks
