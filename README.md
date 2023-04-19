@@ -10,7 +10,7 @@ This application requires the following files to be able to launch the site full
     - [Liverpool images]([link](Liverpool/Images))
     - [New Orleans images]([link](NewOrleans/Images)) 
     
-    For the database:  
+ For the database:  
     - [Access to MySQL software on machine: download here](https://dev.mysql.com/downloads/installer/)  
     
 ## Installation 
