@@ -7,7 +7,9 @@ This Application presents the user with two interactive maps, Liverpool and New 
 
 This application requires the following files to be able to launch the site fully:     
     - [StyleSheet](stylesheet.css)   
-    - [images](link)   
+    - [Liverpool images]([link](Liverpool/Images))
+    - [New Orleans images]([link](NewOrleans/Images)) 
+    
     For the database:  
     - [Access to MySQL software on machine: download here](https://dev.mysql.com/downloads/installer/)  
     
