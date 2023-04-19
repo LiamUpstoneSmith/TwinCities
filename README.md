@@ -6,7 +6,7 @@ This Application presents the user with two interactive maps, Liverpool and New 
 ## Requirements
 
 This application requires the following files to be able to launch the site fully:     
-    - [StyleSheet](link)   
+    - [StyleSheet](stylesheet.css)   
     - [images](link)   
     For the database:  
     - [Access to MySQL software on machine: download here](https://dev.mysql.com/downloads/installer/)  
