@@ -1,0 +1,21 @@
+h1 {
+    text-align: center
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "top"
+    "mid";
+    padding: 3px;  
+}
+
+.photos {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+    padding: 3px;
+
+}

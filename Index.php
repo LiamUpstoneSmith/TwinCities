@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <!-- Bootstrap  CSS framework -->
     <link rel="stylesheet" href="stylesheet.css">
 
+
     <title>Twin Cities</title>
 </head>
 <!--This function runs the two map API's -->
@@ -45,6 +46,15 @@
         $Liv = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=53.4106&lon=-2.9779&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
         $NewO = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=29.951065&lon=-90.071533&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
     ?>
+
+<div class="row">
+    <div class="col" style="align-items: center;">
+    <button class="button Liverpool" onclick="location.href='test_img.php'">Liverpool Flicker</button>
+    </div>
+    <div class="col">
+        <button class="button newOrleans" onclick="location.href='new_o.php'">New Orleans Flicker</button>
+    </div>
+</div>
 
     <div class="container-fluid" id="weatherAPIs">
         <div class="row">
@@ -123,6 +133,23 @@
         </div>
     </div>
     <br>
+
+    
+    <div class="row">
+        <div class="col"> <!--Liverpool RSS feed -->
+            <div id="hiddenTitles">
+                <h4 style="text-align: center;">Liverpool</h4>
+            </div>
+            <?php include "LiverpoolRSS.php"?>
+        </div>
+        <div class="col"> <!--New Orleans RSS feed -->
+            <div  id="hiddenTitles" >
+                <h4 style="text-align: center;">New Orleans</h4>
+            </div>
+            <?php include "NewOrleansRSS.php" ?>
+        </div>
+    </div>
+
 
     <!-- Bottom of page wave styling -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
