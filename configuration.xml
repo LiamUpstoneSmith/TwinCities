@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <openweatherLiv>cdb2d04f08a577bf15c2dfc030f9c845</openweatherLiv>
+    <openweatherNo>cdb2d04f08a577bf15c2dfc030f9c845</openweatherNo>
+    <api_base>http://api.openweathermap.org/data/2.5</api_base>
+
+    <googlemapskeyLiv>AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg</googlemapskeyLiv>
+    <googlemapskeyNo>AIzaSyB4uF3Bgz3JJHFoLAxnv9g8TPrDCam1dCg</googlemapskeyNo>
+
+
+   
+
+</config> 
