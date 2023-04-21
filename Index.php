@@ -39,6 +39,15 @@
         </div>
     </div>
 
+    <!-- Flicker APIs ------------------------------------------------------>
+<div class="row">
+    <div class="col" style="align-items: center;">
+    <button class="button Liverpool" onclick="location.href='test_img.php'" >Liverpool Flicker</button>
+    </div>
+    <div class="col">
+        <button class="button newOrleans" onclick="location.href='new_o.php'">New Orleans Flicker</button>
+    </div>
+</div>
 
 <!-- Weather APIs --------------------------------------------------------->
     <br>
@@ -46,15 +55,6 @@
         $Liv = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=53.4106&lon=-2.9779&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
         $NewO = simplexml_load_file('https://api.openweathermap.org/data/2.5/weather?lat=29.951065&lon=-90.071533&appid=cdb2d04f08a577bf15c2dfc030f9c845&units=metric&mode=xml') or die("Can't load file");
     ?>
-
-<div class="row">
-    <div class="col" style="align-items: center;">
-    <button class="button Liverpool" onclick="location.href='test_img.php'">Liverpool Flicker</button>
-    </div>
-    <div class="col">
-        <button class="button newOrleans" onclick="location.href='new_o.php'">New Orleans Flicker</button>
-    </div>
-</div>
 
     <div class="container-fluid" id="weatherAPIs">
         <div class="row">
